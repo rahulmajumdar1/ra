@@ -1,0 +1,16 @@
+package firstJavaApp;
+public class FirstJavaApp {
+public static void main(String[] args) {
+	
+	int sumOfOdds = 0;
+
+    for (int num = 7; num <= 21; num++) {      //Initialization, Condition, Increment
+        if (num % 2 != 0) {                    //Only for Odd number
+            System.out.println(num);           //Output
+            sumOfOdds += num;                  //Increment the value
+        }
+    }
+
+    System.out.println("Sum of odd numbers: " + sumOfOdds);  //Get the final output
+}
+}
